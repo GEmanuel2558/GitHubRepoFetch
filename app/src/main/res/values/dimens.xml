@@ -1,0 +1,22 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="item_horizontal_margin">8dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="project_header1">25sp</dimen>
+    <dimen name="project_header2">20sp</dimen>
+    <dimen name="project_text">16sp</dimen>
+    <dimen name="logo_width">150dp</dimen>
+    <dimen name="logo_height">125dp</dimen>
+
+    <dimen name="title_size">20sp</dimen>
+    <dimen name="message_size">15sp</dimen>
+
+
+    <!--recycler_item-->
+    <dimen name="card_corners">5dp</dimen>
+    <dimen name="card_content_padding">3dp</dimen>
+
+    <!--activity_main-->
+    <dimen name="margin_recycler_view">8dp</dimen>
+</resources>

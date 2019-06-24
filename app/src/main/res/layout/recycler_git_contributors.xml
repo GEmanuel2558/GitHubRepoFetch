@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable name="contributors" type="gresanu.emanuel.vasile.githubrepofetch.service.model.Contributors"/>
+    </data>
+
+    <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="@dimen/item_horizontal_margin"
+            android:layout_marginEnd="@dimen/item_horizontal_margin"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardBackgroundColor="@android:color/white"
+            card_view:cardElevation="3dp"
+            card_view:cardCornerRadius="@dimen/card_corners"
+            card_view:elevation="5dp">
+
+        <LinearLayout
+                android:layout_marginStart="@dimen/item_horizontal_margin"
+                android:layout_marginEnd="@dimen/item_horizontal_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+
+            <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/github"
+                    card_view:imageUrl="@{contributors.avatar_url}"
+                    android:contentDescription="Avatar"/>
+
+            <TextView
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:gravity="center"
+                    android:contentDescription="@string/project_size"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/project_text"
+                    android:text="@{String.format(@string/name, contributors.login)}"/>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</layout>

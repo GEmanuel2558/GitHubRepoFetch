@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">GitHubRepoFetch</string>
+    <string name="loading_projects">Loading projects ...</string>
+    <string name="loading_project">Loading GitRepo ...</string>
+    <string name="all_github_projects">ALL Public GitHub Projects</string>
+    <string name="projects_list">GitRepo list</string>
+    <string name="project_size">Size of the gitRepo: %s Kb</string>
+    <string name="project_stargazers">Stargazers count: %s</string>
+    <string name="project_forks">Fork count: %s</string>
+    <string name="project_list">GitRepo List</string>
+    <string name="project_fork">Git fork counter</string>
+    <string name="stargazers_count">GitRepo stargazers count</string>
+    <string name="contributors">Contributors</string>
+    <string name="name">Name: %s</string>
+    <string name="full_name">Full Name: %s</string>
+    <string name="internet_connection">Please activate an internet connection before proceeding</string>
+    <string name="permission">Permissions</string>
+</resources>
